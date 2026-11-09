@@ -12,3 +12,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+
+# Chunks de rascunho (fontes pendentes tratadas como aprovadas)
+data/chunks/chunks_rascunho*

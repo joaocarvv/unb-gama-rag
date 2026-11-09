@@ -1,0 +1,140 @@
+# Tabela de entidades: liga nomes e siglas que aparecem nos documentos a um ID.
+#
+# Regras:
+# - Só entra equivalência ESCRITA numa fonte do catálogo (campo "fonte").
+#   Ex.: DOC-001 diz "Unidade Acadêmica (UAC)", então UAC e Unidade Acadêmica são variantes.
+# - Não altera o texto dos chunks: só marca quais entidades cada chunk menciona.
+# - Variante sem espaço (sigla) compara maiúsculas e minúsculas exatamente.
+#   Variante com espaço (nome) ignora maiúsculas e minúsculas.
+# - Lista gerada a partir dos textos extraídos em 2026-11-09. PRECISA DE REVISÃO HUMANA.
+
+entidades:
+
+  # ---------- Unidades ----------
+  - id: unidade-fcte
+    tipo: unidade
+    nome: Faculdade de Ciências e Tecnologias em Engenharia
+    variantes: [FCTE, Faculdade de Ciências e Tecnologias em Engenharia]
+    fonte: DOC-012
+
+  - id: unidade-fga
+    tipo: unidade
+    nome: Faculdade do Gama
+    variantes: [FGA, Faculdade do Gama]
+    fonte: DOC-019
+    nota: Nenhuma fonte do catálogo afirma que FGA e FCTE são a mesma unidade. Não unir sem fonte.
+
+  # ---------- Prédios ----------
+  - id: predio-uac
+    tipo: predio
+    nome: Unidade Acadêmica
+    variantes: [UAC, Prédio UAC, Unidade Acadêmica]
+    fonte: DOC-001
+
+  - id: predio-ued
+    tipo: predio
+    nome: Unidade de Ensino e Docência
+    variantes: [UED, Prédio UED, Unidade de Ensino e Docência]
+    fonte: DOC-001
+
+  - id: predio-ldtea
+    tipo: predio
+    nome: LDTEA
+    variantes: [LDTEA, Prédio LDTEA]
+    fonte: DOC-005
+    nota: Nome por extenso não aparece nas fontes do catálogo.
+
+  # ---------- Serviços e órgãos ----------
+  - id: servico-lite
+    tipo: servico
+    nome: Laboratórios Integrados de Tecnologias em Engenharia
+    variantes: [LITE, Laboratórios Integrados de Tecnologias em Engenharia]
+    fonte: DOC-015
+
+  - id: servico-dasu
+    tipo: servico
+    nome: Diretoria de Atenção à Saúde da Comunidade Universitária
+    variantes: [DASU, Diretoria de Atenção à Saúde da Comunidade Universitária]
+    fonte: DOC-004
+
+  - id: servico-biblioteca-gama
+    tipo: servico
+    nome: Biblioteca do Campus Gama
+    variantes: [Biblioteca do Campus Gama, Biblioteca Setorial Campus Gama, Biblioteca da Faculdade do Gama]
+    fonte: DOC-012
+
+  # ---------- Programas de assistência estudantil (DOC-003) ----------
+  - id: programa-paseunb
+    tipo: programa
+    nome: Programa Auxílio Socioeconômico
+    variantes: [PASeUnB, Programa Auxílio Socioeconômico]
+    fonte: DOC-003
+
+  - id: programa-pat
+    tipo: programa
+    nome: Programa Auxílio Transporte
+    variantes: [PAT, Programa Auxílio Transporte]
+    fonte: DOC-003
+
+  - id: programa-pacreche
+    tipo: programa
+    nome: Programa Auxílio Creche
+    variantes: [PACreche, Programa Auxílio Creche]
+    fonte: DOC-003
+
+  - id: programa-pme-g
+    tipo: programa
+    nome: Programa Moradia Estudantil da Graduação
+    variantes: [PME-G, Programa Moradia Estudantil da Graduação]
+    fonte: DOC-003
+
+  - id: programa-pme-pg
+    tipo: programa
+    nome: Programa Moradia Estudantil da Pós-Graduação
+    variantes: [PME-PG, Programa Moradia Estudantil da Pós-Graduação]
+    fonte: DOC-003
+
+  - id: programa-ceu
+    tipo: programa
+    nome: Casa do Estudante Universitário
+    variantes: [CEU, Casa do Estudante Universitário]
+    fonte: DOC-003
+
+  # ---------- Laboratórios ----------
+  - {id: lab-ailab, tipo: laboratorio, nome: Laboratório de Inteligência Artificial, variantes: [AILAB, Laboratório de Inteligência Artificial], fonte: DOC-005}
+  - {id: lab-arc, tipo: laboratorio, nome: Automotive Research Center, variantes: [ARC, Automotive Research Center], fonte: DOC-005}
+  - {id: lab-bioenglab, tipo: laboratorio, nome: Laboratório de Engenharia e Biotecnologia, variantes: [BioEngLab, Laboratório de Engenharia e Biotecnologia], fonte: DOC-005}
+  - {id: lab-biogama, tipo: laboratorio, nome: Laboratório BioGama, variantes: [BioGama, Laboratório BioGama], fonte: DOC-023}
+  - {id: lab-cedis, tipo: laboratorio, nome: Centro de Estudos Desenvolvimento e Inovação em Software, variantes: [CEDIS, Centro de Estudos Desenvolvimento e Inovação em Software], fonte: DOC-005}
+  - {id: lab-cosmos, tipo: laboratorio, nome: Computational Aerospace Simulations & Modeling Laboratory, variantes: [COSMOS, Computational Aerospace Simulations & Modeling Laboratory], fonte: DOC-005}
+  - {id: lab-cpai, tipo: laboratorio, nome: Centro de Pesquisa em Arquitetura da Informação, variantes: [CPAI, Centro de Pesquisa em Arquitetura da Informação], fonte: DOC-011}
+  - {id: lab-cpl, tipo: laboratorio, nome: Chemical Propulsion Laboratory, variantes: [CPL, Chemical Propulsion Laboratory], fonte: DOC-005}
+  - {id: lab-gmec, tipo: laboratorio, nome: Laboratório do Grupo de Mecânica Experimental e Computacional, variantes: [GMEC, Grupo de Mecânica Experimental e Computacional], fonte: DOC-005}
+  - {id: lab-itrac, tipo: laboratorio, nome: Information Technology Research and Application Center, variantes: [ITRAC, Information Technology Research and Application Center], fonte: DOC-005}
+  - {id: lab-labenso, tipo: laboratorio, nome: "Laboratório de Energia, Ambiente e Sociedade", variantes: [LABENSO, "Laboratório de Energia, Ambiente e Sociedade"], fonte: DOC-005}
+  - {id: lab-labmicro, tipo: laboratorio, nome: Laboratório de Microeletrônica e Sistemas Embarcados, variantes: [LabMicro, Laboratório de Microeletrônica e Sistemas Embarcados], fonte: DOC-005}
+  - {id: lab-labmodsis, tipo: laboratorio, nome: Laboratório de Modelagem de Sistemas, variantes: [LABMODSIS, Laboratório de Modelagem de Sistemas], fonte: DOC-005}
+  - {id: lab-labnanotec, tipo: laboratorio, nome: Laboratório Compartilhado de Ensino e Pesquisa em Nanotecnologia, variantes: [LabNanotec, Laboratório Compartilhado de Ensino e Pesquisa em Nanotecnologia], fonte: DOC-005, nota: "DOC-015 cita NANOTEC; nenhuma fonte diz que é o mesmo laboratório"}
+  - {id: lab-labnvh, tipo: laboratorio, nome: Laboratório de Acústica e Vibrações, variantes: [LabNVH, Laboratório de Acústica e Vibrações], fonte: DOC-005}
+  - {id: lab-labtermo, tipo: laboratorio, nome: Laboratório de Termofluidos, variantes: [LabTermo, Laboratório de Termofluidos], fonte: DOC-005}
+  - {id: lab-lacem, tipo: laboratorio, nome: Laboratório de Crashworthiness e Ensaios Mecânicos Automotivos, variantes: [LACEM, Laboratório de Crashworthiness e Ensaios Mecânicos Automotivos], fonte: DOC-005}
+  - {id: lab-lades, tipo: laboratorio, nome: Laboratório de Dependabilidade e Segurança, variantes: [LaDeS, Laboratório de Dependabilidade e Segurança], fonte: DOC-011}
+  - {id: lab-lappis, tipo: laboratorio, nome: "Laboratório Avançado de Produção, Pesquisa e Inovação em Software", variantes: [LAPPIS, "Laboratório Avançado de Produção, Pesquisa e Inovação em Software"], fonte: DOC-005}
+  - {id: lab-laprren, tipo: laboratorio, nome: Laboratório de Pesquisa em Recursos Renováveis e Energéticos, variantes: [LAPRREn, Laboratório de Pesquisa em Recursos Renováveis e Energéticos], fonte: DOC-005}
+  - {id: lab-larsis, tipo: laboratorio, nome: Laboratório de Robótica e Sistemas de Controle, variantes: [LARSIS, Laboratório de Robótica e Sistemas de Controle], fonte: DOC-005}
+  - {id: lab-lase, tipo: laboratorio, nome: Laboratório de Sistemas Espaciais, variantes: [LaSE, Laboratório de Sistemas Espaciais], fonte: DOC-005}
+  - {id: lab-lasee, tipo: laboratorio, nome: Laboratório de Sistemas de Energia Elétrica, variantes: [LASEE, Laboratório de Sistemas de Energia Elétrica], fonte: DOC-005}
+  - {id: lab-latame, tipo: laboratorio, nome: "Laboratório de Tecnologias Ambientais, Materiais e Energia", variantes: [LATAME, "Laboratório de Tecnologias Ambientais, Materiais e Energia"], fonte: DOC-005}
+  - {id: lab-lated, tipo: laboratorio, nome: Laboratório de Tecnologias Educacionais, variantes: [LATEd, LaTEd, Laboratório de Tecnologias Educacionais], fonte: DOC-005}
+  - {id: lab-lca, tipo: laboratorio, nome: Laboratório de Computação Aplicada, variantes: [LCA, Laboratório de Computação Aplicada], fonte: DOC-006}
+  - {id: lab-ldci, tipo: laboratorio, nome: Laboratório de Dispositivos e Circuitos Integrados, variantes: [LDCI, Laboratório de Dispositivos e Circuitos Integrados], fonte: DOC-017}
+  - {id: lab-lds, tipo: laboratorio, nome: Laboratório de Desenvolvimento de Software, variantes: [LDS, Laboratório de Desenvolvimento de Software], fonte: DOC-005}
+  - {id: lab-lea, tipo: laboratorio, nome: Laboratório de Eletricidade Aplicada, variantes: [LEA, Laboratório de Eletricidade Aplicada], fonte: DOC-005}
+  - {id: lab-lem, tipo: laboratorio, nome: Laboratório de Ensaio de Motores, variantes: [LEM, Laboratório de Ensaio de Motores], fonte: DOC-005}
+  - {id: lab-lema, tipo: laboratorio, nome: Laboratório de Estruturas e Materiais Aeroespaciais, variantes: [LEMA, Laboratório de Estruturas e Materiais Aeroespaciais], fonte: DOC-005}
+  - {id: lab-list, tipo: laboratorio, nome: Laboratório de Tecnologia e Inovação em Software, variantes: [LIST, Laboratório de Tecnologia e Inovação em Software], fonte: DOC-005}
+  - {id: lab-lmpie, tipo: laboratorio, nome: Laboratório Multidisciplinar de Pesquisa e Inovação em Energia, variantes: [LMPIE, Laboratório Multidisciplinar de Pesquisa e Inovação em Energia], fonte: DOC-005}
+  - {id: lab-ltbio, tipo: laboratorio, nome: Laboratório de Tecnologia da Biomassa, variantes: [LTBIO, Laboratório de Tecnologia da Biomassa], fonte: DOC-005, nota: "DOC-015 cita LTB; nenhuma fonte diz que é o mesmo laboratório"}
+  - {id: lab-magpie, tipo: laboratorio, nome: "Laboratório de Matemática Aplicada, Gestão e Problemas de Instrumentação de Engenharia", variantes: [MAGPIE], fonte: DOC-005}
+  - {id: lab-mocap, tipo: laboratorio, nome: Laboratório de Motion Capture Virtual e Projetos Virtuais, variantes: [MOCAP, Laboratório de Motion Capture Virtual e Projetos Virtuais], fonte: DOC-006}
+  - {id: lab-sisco, tipo: laboratorio, nome: Laboratório de Sistemas e Controle, variantes: [SISCO, Laboratório de Sistemas e Controle], fonte: DOC-005}
