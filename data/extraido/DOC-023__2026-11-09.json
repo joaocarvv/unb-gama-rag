@@ -1,0 +1,59 @@
+{
+  "source_id": "DOC-023",
+  "versao": "2026-11-09",
+  "sha256_original": "652d2b079a4ecbc6115d34c2a8aa3d7bed41a333472739e6bffe6ebc8e470a12",
+  "url": "https://lite.unb.br/laboratorio-biogama/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Laboratório BioGama - FCTE / LITE",
+  "palavras": 285,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Laboratório BioGama"
+      ],
+      "paragrafos": [
+        "O Laboratório BioGama, coordenado pela Dra. Patricia Regina Sobral Braga, é um centro de pesquisa da Universidade de Brasília (UnB) dedicado ao desenvolvimento de tecnologias sustentáveis, com foco no aproveitamento de materiais residuais, especialmente óleos residuais, e na aplicação de catálise para otimizar processos químicos. A equipe do BioGama trabalha ativamente na síntese, caracterização e aplicação de catalisadores sólidos, desenvolvendo soluções inovadoras que contribuem para a redução de resíduos e a melhoria da eficiência energética em processos industriais."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório BioGama",
+        "Especialidades do BioGama"
+      ],
+      "paragrafos": [
+        "Materiais e Óleos Residuais: O BioGama concentra seus estudos em materiais residuais, com um enfoque especial nos óleos residuais que podem ser reaproveitados em processos de produção sustentável. Esses óleos são transformados em recursos valiosos por meio de técnicas de catálise, apoiando uma abordagem mais ecológica para a gestão de resíduos.",
+        "Catálise e Catalisadores Sólidos: O laboratório é especializado em processos de catálise, utilizando catalisadores sólidos para acelerar reações químicas de forma eficiente e com menor impacto ambiental. Os catalisadores desenvolvidos no BioGama são aplicados em reações que visam transformar resíduos em produtos de valor, promovendo a economia circular e a sustentabilidade.",
+        "Síntese e Caracterização de Catalisadores: No BioGama, a síntese de catalisadores sólidos envolve o desenvolvimento de materiais que são avaliados por meio de caracterizações detalhadas, como análises de estrutura e reatividade. Esses estudos são essenciais para assegurar a eficácia dos catalisadores em diversas aplicações, especialmente na conversão de óleos residuais."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório BioGama",
+        "Contribuição para Sustentabilidade e Inovação"
+      ],
+      "paragrafos": [
+        "O BioGama é um laboratório que se destaca pela sua contribuição à sustentabilidade e inovação em química e engenharia ambiental. Ao desenvolver técnicas de reaproveitamento de materiais residuais e otimizar processos industriais através de catálise, o BioGama apoia práticas mais sustentáveis, alinhadas com os desafios globais de reduzir o desperdício e promover a eficiência energética."
+      ]
+    }
+  ]
+}

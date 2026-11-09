@@ -43,6 +43,17 @@ def ler_catalogo(caminho: Path | str) -> list[dict]:
         return [{k: (v or "").strip() for k, v in linha.items()} for linha in leitor]
 
 
+def salvar_catalogo(caminho: Path | str, fontes: list[dict]) -> None:
+    """Regrava o CSV mantendo a ordem das colunas. Escreve num temporário e troca no fim."""
+    caminho = Path(caminho)
+    temporario = caminho.with_suffix(".csv.tmp")
+    with open(temporario, "w", encoding="utf-8", newline="") as arquivo:
+        escritor = csv.DictWriter(arquivo, fieldnames=list(fontes[0].keys()), lineterminator="\n")
+        escritor.writeheader()
+        escritor.writerows(fontes)
+    temporario.replace(caminho)
+
+
 def _data_valida(texto: str) -> bool:
     try:
         date.fromisoformat(texto)

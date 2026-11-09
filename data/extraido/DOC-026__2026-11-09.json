@@ -1,0 +1,72 @@
+{
+  "source_id": "DOC-026",
+  "versao": "2026-11-09",
+  "sha256_original": "e2b818541fbc3467789883e78ea58531fbba99629d0db13a2a8866ccfd1d946e",
+  "url": "https://dfnoponto.semob.df.gov.br/pesquisa-geral/",
+  "regras": {
+    "conteudo": "#ajax-content-wrap",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button",
+      "#header-outer",
+      "#search-outer",
+      "#footer1",
+      "#footer2",
+      "#slide-out-widget-area"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Pesquisa Geral - Consulte os horários, linhas e pontos de parada.",
+  "palavras": 81,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Pesquisa Geral"
+      ],
+      "paragrafos": [
+        "Fazer uma pesquisa geral no DF NO PONTO é rápido e intuitivo. Basta informar o local de partida ou destino para acessar horários, linhas disponíveis e pontos de parada próximos."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!"
+      ],
+      "paragrafos": [
+        "Tenha acesso a todas as funcionalidades do aplicativo.\nDisponível para Android e iOS."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular Android"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares Samsung, Motorola, Xiaomi e outros com sistema operacional Android/Google.",
+        "Disponível no Google PlayDisponível no Google Play"
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular iOS / Apple"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares iPhone com sistema operacional iOS/Apple.",
+        "Disponível na Apple StoreDisponível na Apple Store"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source_id": "DOC-006",
+  "versao": "2026-11-09",
+  "sha256_original": "b7d7775c168a4f3a7dc8ef2bbd3160eb4bef757f110d7562054f6815369e4621",
+  "url": "https://software.unb.br/laboratorios-de-ensino/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Laboratórios de Ensino – Engenharia de Software – UnB",
+  "palavras": 392,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [],
+      "paragrafos": [
+        "O espaço físico da Faculdade do Gama é de aproximadamente 5.200 m2 e incluem salas de aulas, laboratórios, espaços administrativos, gabinetes de professores/pesquisadores, biblioteca, sala de reunião, sanitários, espaços de circulação, etc. Neste ambiente de pesquisa educacional o curso de Engenharia de Software utiliza regularmente para suas aulas práticas da faculdade, os seguintes laboratórios de ensino:",
+        "Laboratórios de Ensino de Informática: são duas salas de aula, sendo uma com 25 notebooks e a outra com 50 postos de trabalho (40 desktops e 10 nichos para notebooks ou netbooks dos alunos). Podem ser utilizadas para aulas que envolvam laboratórios, bem como para execução de testes de software em escala. Espaço também adequado para elaboração de tarefas e atividades necessárias as disciplinas de cursos, bem como às pesquisas em assuntos pertinentes aos temas condizentes com as linhas de pesquisa de Engenharia de Software;",
+        "Laboratório de Software: laboratório com 40 computadores individuais para disciplinas intermediárias de computação/programação;",
+        "Laboratório de Motion Capture Virtual e Projetos Virtuais (MOCAP): esse laboratório tem 100 m2, equipado com 60 notebooks e tela de projeção 3D. Ele é utilizado para o desenvolvimento de maquetes virtuais para ensino e pesquisa. Os estudantes, pesquisadores e professores envolvidos com suas pesquisas em ambientes 3D, por exemplo, poderão usá-lo para testes, ensaios, construção de ambientes virtuais, entre outros softwares que demandem de seus recursos tecnológicos;",
+        "Laboratório de Computação Aplicada (LCA): laboratório com capacidade de 20 alunos com rede e computadores configuráveis usados para disciplinas como: computação em nuvem, fundamentos de redes de computadores, fundamentos de sistemas operacionais.",
+        "O prédio da Unidade Acadêmica (UAC) conta com 5 laboratórios de informática, sendo: 2 laboratórios de informática com 80 postos de trabalho, 2 laboratórios com 40 postos cada (um com desktops e outro com notebooks) e 1 sala de consulta virtual na biblioteca com 13 postos.",
+        "Prédio da UAC",
+        "O prédio da Unidade de Ensino e Docência (UED), por sua vez, apresenta o laboratório de Mocap (motion capture) virtual com 60 postos (notebooks) e um Laboratório de Software e Simulação com 50 postos de trabalho, sendo 40 desktops e 10 nichos para notebooks de alunos.",
+        "Prédio da UED",
+        "Totens de acesso à internet estão distribuídos estrategicamente pelos corredores e áreas comuns. A rede do campus está interligada à rede Giga Candanga (COMEP), via fibra ótica, num backbone de 1Gb de taxa de transmissão, cuja evolução prevê alcançar 10Gb."
+      ]
+    }
+  ]
+}

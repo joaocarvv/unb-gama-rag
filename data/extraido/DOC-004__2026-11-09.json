@@ -1,0 +1,47 @@
+{
+  "source_id": "DOC-004",
+  "versao": "2026-11-09",
+  "sha256_original": "041061d277a84e50c3d87146d69dd9ebce2c7ae8bd69305e48c80b5746d9dab1",
+  "url": "https://fcte.unb.br/servico-de-orientacao-ao-universitario-sou/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Diretoria de Atenção à Saúde da Comunidade Universitária (DASU) – FCTE",
+  "palavras": 140,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Diretoria de Atenção à Saúde da Comunidade Universitária"
+      ],
+      "paragrafos": [
+        "A Diretoria de Atenção à Saúde da Comunidade Universitária (DASU) tem como missão a coordenação de políticas e estratégias de atenção à saúde e à qualidade de vida da comunidade universitária. Realiza ações de prevenção, promoção de saúde e atenção psicossocial.",
+        "É composta por quatro coordenações: Atenção Psicossocial (CoAP), Articulação de Redes para Prevenção e Promoção da Saúde (CoRedes), Articulação da Comunidade Educativa (CoEduca) e de Atenção e Vigilância em Saúde (CoAVS).",
+        "Na FCTE, a DASU está presente da seguinte forma:",
+        "Roda de práticas integrativas da CoRedes (Psicóloga Doralice)",
+        "quarta-feira – 12h às 14h",
+        "sala de reuniões do prédio LDTEA da FCTE",
+        "Técnicas de enfermagem e enfermeira da CoAVS (Claudete e Stefane)",
+        "todos os dias de manhã e de tarde no prédio UED da FCTE",
+        "No site da DASU, você pode encontrar mais informações sobre os serviços dessa diretoria http://dasu.unb.br/"
+      ]
+    }
+  ]
+}

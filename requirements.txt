@@ -2,3 +2,11 @@
 # Bibliotecas de embeddings, Chroma e Gemini entram nos passos em que forem usadas.
 pyyaml==6.0.2
 pytest==8.3.4
+
+# Passo 2: aquisição
+httpx==0.28.1
+tzdata==2025.2
+
+# Passo 2: extração
+beautifulsoup4==4.13.4
+lxml==5.3.0

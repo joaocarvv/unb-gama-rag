@@ -1,0 +1,203 @@
+{
+  "source_id": "DOC-015",
+  "versao": "2026-11-09",
+  "sha256_original": "9d8dcb7acd0815fa75b986dc77f8665e57f6c814f0b8d036c8df026b168efbe1",
+  "url": "https://lite.unb.br/servicos/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Serviços - FCTE / LITE",
+  "palavras": 460,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Serviços"
+      ],
+      "paragrafos": [
+        "O LITE – Laboratórios Integrados de Tecnologias em Engenharia organiza seus laboratórios em quatro categorias principais: Materiais e Estruturas, Sinais, Sistemas, e Modelagem. Cada categoria conta com equipamentos de ponta que atendem tanto a demandas acadêmicas quanto industriais. Para informações detalhadas, acesse os sites dos laboratórios clicando nos links indicados."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "LATAME – Laboratório de Tecnologias Ambientais, Materiais e Energia"
+      ],
+      "paragrafos": [
+        "Equipamentos: Sistemas de análise química e caracterização de catalisadores sólidos, essenciais para o desenvolvimento de processos sustentáveis."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "BioGama"
+      ],
+      "paragrafos": [
+        "Equipamentos: Ferramentas de caracterização térmica e química para óleos residuais e materiais catalíticos, com foco em aplicações industriais e ambientais."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "LEMA"
+      ],
+      "paragrafos": [
+        "Equipamentos: Máquinas de fabricação de estruturas compósitas, sistemas de manufatura aditiva e equipamentos para ensaios estruturais e não destrutivos."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "LabTermo"
+      ],
+      "paragrafos": [
+        "Equipamentos: Bancadas experimentais para estudos de transferência de calor, energia hidráulica e mecânica dos fluidos."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "LTB"
+      ],
+      "paragrafos": [
+        "Equipamentos: Sistemas de análise térmica e espectroscópica, fundamentais para caracterização de combustíveis e materiais avançados."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Materiais e Estruturas",
+        "NANOTEC"
+      ],
+      "paragrafos": [
+        "Equipamentos: Tecnologias para produção de nanomateriais, sensores e catalisadores, incluindo sistemas para análise de biocombustíveis."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sinais",
+        "LabTelecom-LCEPT"
+      ],
+      "paragrafos": [
+        "Equipamentos: Sistemas de teste para telecomunicações, antenas, RF e análise de eletromagnetismo, voltados para aplicações acadêmicas e industriais."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sinais",
+        "LabNVH"
+      ],
+      "paragrafos": [
+        "Equipamentos: Bancadas de teste para vibrações mecânicas e acústica, com softwares especializados para simulações vibro-acústicas."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sinais",
+        "LARSIS"
+      ],
+      "paragrafos": [
+        "Equipamentos: Robôs, sistemas de controle aplicado e tecnologias assistivas, utilizados para pesquisa em automação e acessibilidade."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sistemas",
+        "ARC"
+      ],
+      "paragrafos": [
+        "Equipamentos: Bancadas para modelagem e controle de sistemas automotivos, além de eletrônica embarcada e instrumentação específica."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sistemas",
+        "LaSE"
+      ],
+      "paragrafos": [
+        "Equipamentos: Câmaras de vácuo e sistemas para testes de propulsão elétrica e simulações espaciais, incluindo estudo de tecnologia de plasmas."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Sistemas",
+        "LMPIE"
+      ],
+      "paragrafos": [
+        "Equipamentos: Ferramentas para integração de sistemas eólicos e fotovoltaicos, além de infraestrutura para mobilidade elétrica."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Modelagem",
+        "LabMicro"
+      ],
+      "paragrafos": [
+        "Equipamentos: Kits para prototipagem rápida de circuitos integrados, FPGA e desenvolvimento de sistemas embarcados."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Modelagem",
+        "GMEC"
+      ],
+      "paragrafos": [
+        "Equipamentos: Ferramentas de simulação computacional e manufatura aditiva, incluindo tecnologias para modelagem de mecânica de sólidos e fluidos."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Modelagem",
+        "COSMOS"
+      ],
+      "paragrafos": [
+        "Equipamentos: Softwares de modelagem numérica e sistemas para análise estrutural de componentes aeroespaciais."
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços",
+        "Como Utilizar os Serviços"
+      ],
+      "paragrafos": [
+        "O LITE oferece um ambiente multiusuário que permite o acesso compartilhado à infraestrutura de ponta de seus laboratórios associados. Pesquisadores, estudantes, empresas e instituições podem utilizar os equipamentos para diversas finalidades, como projetos acadêmicos, experimentos científicos e demandas industriais.",
+        "As formas de acesso incluem:",
+        "Colaboração Científica: Estudantes e pesquisadores podem integrar o ambiente multiusuário para desenvolver estudos avançados, desde iniciação científica até projetos de mestrado e doutorado.",
+        "Prestação de Serviços: Empresas e indústrias têm acesso a equipamentos e consultoria técnica para ensaios, análises e projetos personalizados, conectando a pesquisa acadêmica às demandas do mercado.",
+        "Cada laboratório do LITE mantém especialidades únicas e equipamentos de alta tecnologia, disponíveis para uso conforme as necessidades de cada projeto. Detalhes específicos sobre os equipamentos e serviços podem ser encontrados nos sites dos laboratórios, listados nesta página.",
+        "O LITE é projetado para promover a colaboração, a inovação e o avanço científico, proporcionando um espaço inclusivo para o desenvolvimento de soluções tecnológicas que atendam às mais diversas áreas da engenharia."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "source_id": "DOC-005",
+  "versao": "2026-11-09",
+  "sha256_original": "39c9ddbef7fb855f606a84f1886a042f5c8201e767bfe880b7e904d4856ead38",
+  "url": "https://fcte.unb.br/homologa_laboratorios/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "laboratorios – FCTE",
+  "palavras": 1136,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios de Ciências Naturais Aplicadas"
+      ],
+      "paragrafos": [
+        "Laboratório de Física 1\nCoordenador: Eberth de Almeida Correa\nContato: e-mail: eberth@unb.br\nLocal: Prédio UED – Térreo – Sala AT-72/7",
+        "Laboratório de Física 2 e Física 3\nCoordenador: Eberth de Almeida Correa\nContato: e-mail: eberth@unb.br\nLocal: Prédio UED – Térreo – Sala AT-68/7"
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios de Engenharia Aeroespacial"
+      ],
+      "paragrafos": [
+        "Chemical Propulsion Laboratory – CPL\nSite: https://cpl.unb.br/\nCoordenador: Olexiy Shynkarenko\nContato: e-mail: olexiy@aerospace.unb.br\nLocal: Contêiner 07",
+        "Computational Aerospace Simulations & Modeling Laboratory – COSMOS\nSite: https://lite.unb.br/2024/11/15/computational-aerospace-simulations-modeling-laboratory/\nCoordenadora: Polliana Candida Oliveira Martins\nContato: e-mail: polliana.martins@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 304",
+        "Laboratório de Estruturas e Materiais Aeroespaciais – LEMA\nSite: https://lema.unb.br/\nCoordenador: Artem Andrianov\nContato: e-mail: andrianov@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 103",
+        "Laboratório de Sistemas Espaciais – LaSE\nSite: https://lase.unb.br/\nCoordenador: Manuel Nascimento Dias Barcelos\nContato: e-mail: manuelbarcelos@unb.br\nLocal: Prédio LDTEA – Térreo – Salas 104 e 108"
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios de Engenharia Automotiva"
+      ],
+      "paragrafos": [
+        "Automotive Research Center – ARC\nSite: https://lite.unb.br/2024/11/14/automotive-research-center/\nCoordenador: Rafael Rodrigues da Silva\nContato: e-mail: rafael.rodrigues@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 111",
+        "Laboratório de Acústica e Vibrações – LabNVH\nSite: http://www.labnvh.unb.br/\nCoordenadora: Maria Alzira de Araújo Nunes\nContato: e-mail: maanunes@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 109",
+        "Laboratório de Caracterização de Materiais Metálicos e Cerâmicos\nCoordenador: Emmanuel Pacheco Rocha\nContato: e-mail: emmanuel@unb.br\nLocal: Prédio UED – Térreo – Sala AT-44/7",
+        "Laboratório de Crashworthiness e Ensaios Mecânicos Automotivos – LACEM\nCoordenadora: Rita de Cássia Silva\nContato: e-mail: ritasilva@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 111",
+        "Laboratório de Desempenho Automotivo\nSite: http://automotiva.unb.br/laboratorios/laboratorio-de-desempenho-automotivo\nCoordenador: Fábio Cordeiro de Lisboa\nContato: e-mail: fabiodelisboa@gmail.com\nLocal: Prédio LDTEA – Térreo – Sala 110",
+        "Laboratório de Ensaio de Motores – LEM\nSite: http://automotiva.unb.br/laboratorios/laboratorio-de-ensaio-de-motores-lem\nCoordenador: Fábio Cordeiro de Lisboa\nContato: e-mail: fabiodelisboa@gmail.com\nLocal: Contêiner 03",
+        "Laboratório de Fundição\nCoordenador: Edison Gustavo Cueva Galarraga\nContato: e-mail: cueva@unb.br\nLocal: Área externa ao LDTEA",
+        "Laboratório do Grupo de Mecânica Experimental e Computacional – GMEC\nSite: http://www.gmec.unb.br\nCoordenadora: Carla Tatiana Mota Anflor\nContato: e-mail: anflor@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 102",
+        "Laboratório de Processos de Fabricação\nCoordenador: Rhander Viana\nContato: e-mail: rhander@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 107",
+        "Laboratório de Sistemas e Controle – SISCO\nCoordenadora: Suzana Moreira Ávila\nContato: e-mail: avilas@unb.br\nLocal: Contêiner 14",
+        "Laboratório de Sistemas Hidráulicos e Pneumáticos\nCoordenador: Bruno Luiz Pereira\nContato: e-mail: bruno.pereira@unb.br\nLocal: Contêiner 08",
+        "Laboratório de Soldagem\nCoordenador: Edison Gustavo Cueva Galarraga\nContato: e-mail: cueva@unb.br\nLocal: Área externa ao LDTEA",
+        "Laboratório de Tecnologia da Biomassa – LTBIO\nSite: https://www.pctec.unb.br/analise-trl/189-laboratorio-de-tecnologias-em-biomassa\nCoordenadora: Sandra Maria Da Luz\nContato: e-mail: sandraluz@unb.br\nLocal: Prédio LDTEA – Sala 204 e Antessala 111 + Prédio UED – Térreo – Sala AT-14/7",
+        "Laboratório de Tribologia\nCoordenador: Edison Gustavo Cueva Galarraga\nContato: e-mail: cueva@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 110"
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios da Engenharia de Energia"
+      ],
+      "paragrafos": [
+        "Laboratório Compartilhado de Ensino e Pesquisa em Nanotecnologia – LabNanotec\nSite: https://nanotecnologia.unb.br/\nCoordenadora: Maria Del Pilar Hidalgo\nContato: e-mail: pilar@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 101",
+        "Laboratório de Eletricidade Aplicada – LEA\nCoordenador: Jorge Cormane\nContato: e-mail: jcormane@unb.br\nLocal: Prédio UED – Térreo – Sala AT-46/7",
+        "Laboratório de Energia, Ambiente e Sociedade – LABENSO\nCoordenadora: Josiane do Socorro Aguiar\nContato: e-mail: josiane@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 307",
+        "Laboratório de Pesquisa em Recursos Renováveis e Energéticos – LAPRREn\nSite: https://lite.unb.br/2024/11/15/laboratorio-de-pesquisa-em-recursos-renovaveis-e-energeticos/\nCoordenadora: Roseany de Vasconcelos Vieira\nContato: e-mail: roseany@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 203",
+        "Laboratório de Química Geral\nCoordenador: Noberto Fontenele Frota\nContato: e-mail: nobertofrota@unb.br\nLocal: Prédio UED – Térreo – Sala AT-16/7",
+        "Laboratório de Sistemas de Energia Elétrica – LASEE\nCoordenador: Jorge Cormane\nContato: e-mail: jcormane@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 206",
+        "Laboratório de Tecnologias Ambientais, Materiais e Energia – LATAME\nSite: https://lite.unb.br/2024/11/14/laboratorio-de-tecnologias-ambientais-materiais-e-energia/\nCoordenadora: Andréia Alves Costa Lindinger\nContato: e-mail: andreiaacosta@gmail.com\nLocal: Prédio LDTEA – 1º andar – Sala 202",
+        "Laboratório de Tecnologias Limpas\nCoordenador: Felix Martin Carbajal Gamarra\nContato: e-mail: fcarbajal@unb.br\nLocal: Prédio LDTEA – Térreo – Sala 101",
+        "Laboratório de Termofluidos – LabTermo\nSite: https://lite.unb.br/2024/11/15/laboratorio-de-termofluidos/\nCoordenador: Luciano Noleto\nContato: e-mail: lucianonoleto@gmail.com\nLocal: Prédio UED – Térreo – Salas AT-36/25 e AT-10/36",
+        "Laboratório Multidisciplinar de Pesquisa e Inovação em Energia – LMPIE\nSite: https://lite.unb.br/2024/11/15/laboratorio-multidisciplinar-de-pesquisa-e-inovacao-em-energia/\nCoordenadora: Loana Nunes Velasco\nContato: e-mail: loana@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 206",
+        "Laboratório Programa BioGama\nSite: https://lite.unb.br/2024/11/14/laboratorio-biogama/\nCoordenadora: Patrícia Regina Sobral Braga\nContato: e-mail: patriciabraga@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 202"
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios de Engenharia de Software"
+      ],
+      "paragrafos": [
+        "Centro de Estudos Desenvolvimento e Inovação em Software – CEDIS\nSite: http://www.cedis.unb.br\nCoordenador: André Luiz Peron Martins\nContato: e-mail: andrelanna@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 310",
+        "Information Technology Research and Application Center – ITRAC\nSite: http://itrac.unb.br\nCoordenadora: Rejane Maria da Costa Figueiredo\nContato: e-mail: rejanecosta@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 312 e Contêiner 16",
+        "Laboratório Avançado de Produção, Pesquisa e Inovação em Software – LAPPIS\nSite: https://www.lappis.rocks/\nCoordenadora: Carla Rocha Silva Aguiar\nContato: e-mail: caguiar@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 313",
+        "Laboratório de Desenvolvimento de Software – LDS\nCoordenador: Fernando William Cruz\nContato: e-mail: fwcruz@unb.br\nLocal: Prédio UED – Térreo – Sala AT-41/29",
+        "Laboratório de Inteligência Artificial – AILAB\nSite: https://ailab.unb.br/\nCoordenador: Nilton Correia\nContato: e-mail: niltoncs@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 311 e Contêiner 01 e Contêiner 13",
+        "Laboratório de Tecnologias Educacionais – LATEd\nSite: https://lated.unb.br/lated/\nCoordenador: Vandor Roberto Vilardi\nContato: e-mail: vandor@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 313",
+        "Laboratório de Tecnologia e Inovação em Software – LIST\nCoordenador: Mauricio Serrano.\nContato: e-mail: serrano@unb.br\nLocal: Prédio LDTEA – 2º andar – Sala 313",
+        "Laboratório Livre\nCoordenadora: Carla Rocha Silva Aguiar\nContato: e-mail: caguiar@unb.br\nLocal: Contêiner 12"
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratórios FCTE",
+        "Laboratórios de Engenharia Eletrônica"
+      ],
+      "paragrafos": [
+        "Laboratório Compartilhado de Ensino e Pesquisa em Telecomunicações\nSite: https://lab-telecom.unb.br/\nCoordenador: Sébastien Rondineau\nContato: e-mail: sebastien@unb.br\nLocal: Prédio LDTEA – 2º andar – Salas 305 e 306",
+        "Laboratório de Engenharia e Biotecnologia – BioEngLab\nCoordenador: Marcelino Monteiro\nContato: e-mail: andrade@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 208",
+        "Laboratório de Matemática Aplicada, Gestão e Problemas de Instrumentação de Engenharia – MAGPIE\nSite: https://eletronica.unb.br/2025/05/12/magpie/\nCoordenador: Euler de Vilhena Garcia\nContato: e-mail: evgarcia@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 208",
+        "Laboratório de Microeletrônica e Sistemas Embarcados – LabMicro\nSite: http://www.labmicro.unb.br/\nCoordenador: Daniel Muñoz\nContato: e-mail: damuz@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 207",
+        "Laboratório de Modelagem de Sistemas – LABMODSIS\nSite: https://eletronica.unb.br/2025/05/12/labmodsis/\nCoordenador: Luciano Emidio\nContato: e-mail: lucianofonseca@unb.br\nLocal: Prédio UAC – Sala ao lado do CPD",
+        "Laboratório de Robótica e Sistemas de Controle – LARSIS\nSite: https://larsis.unb.br/\nCoordenador: Roberto de Souza Baptista\nContato: e-mail: robertobaptista@unb.br\nLocal: Prédio LDTEA – 1º andar – Sala 208",
+        "Laboratório de Simulação e Software – LAB SS\nCoordenador: Daniel Costa Araújo\nContato: e-mail: daniel.araujo@unb.br\nLocal: Prédio UED – Térreo – Sala AT-44/29",
+        "Laboratório Núcleo de Eletrônica e Instrumentação 1 – NEI1\nCoordenador: Daniel Costa Araújo\nContato: e-mail: daniel.araujo@unb.br\nLocal: Prédio UED – Térreo – Sala AT-72/29",
+        "Laboratório Núcleo de Eletrônica e Instrumentação 2 – NEI2\nCoordenador: Daniel Costa Araújo\nContato: e-mail: daniel.araujo@unb.br\nLocal: Prédio UED – Térreo – Sala AT-69/29"
+      ]
+    }
+  ]
+}

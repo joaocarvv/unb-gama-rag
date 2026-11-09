@@ -18,6 +18,25 @@ catalogo:
   validade_desconhecida: desconhecida
   meta_aprovados: 20
 
+aquisicao:
+  user_agent: "unb-gama-rag/0.1 (projeto academico, Residencia em IA, UnB Gama)"
+  timeout_s: 30
+  pausa_s: 2               # espera entre downloads para não sobrecarregar os sites
+  status_ignorados: [rejeitado]
+  fuso_horario: America/Sao_Paulo   # define a data da coleta (versão)
+
+extracao:
+  conteudo_padrao: main    # seletor CSS da área de conteúdo (sites WordPress/Elementor)
+  remover_padrao: [script, style, noscript, svg, iframe, form, nav, header, footer, aside, button]
+  titulos_extras: [".elementor-tab-title"]   # títulos de abas (sanfonas) viram título de seção
+  min_palavras: 50         # abaixo disso, avisa que a página tem pouco texto
+  por_site:                # regras específicas por domínio
+    dfnoponto.semob.df.gov.br:
+      conteudo: "#ajax-content-wrap"
+      remover: ["#header-outer", "#search-outer", "#footer1", "#footer2", "#slide-out-widget-area"]
+  por_fonte: {}            # remoções pontuais, ex.: trecho de outro campus
+                           # DOC-000: {remover: [".seletor"]}
+
 embeddings:
   modelo: intfloat/multilingual-e5-small
   revisao: null            # passo 4: fixar o commit do modelo no Hugging Face

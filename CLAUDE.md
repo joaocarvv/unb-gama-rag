@@ -146,5 +146,6 @@ Cada item é um passo, com aprovação entre eles:
 
 ## Status
 
-- Passo 1 (esqueleto) feito: `rag.yaml`, catálogo com 20 fontes pendentes, `03_validar_catalogo.py` e testes. Próximo: passo 2 (aquisição e extração), aguardando proposta e aprovação.
+- Passo 1 (esqueleto) feito: `rag.yaml`, catálogo com 20 fontes pendentes, `03_validar_catalogo.py` e testes.
+- Passo 2 (HTML) feito: `01_adquirir.py` baixou as 20 páginas (versão 2026-11-09) e preencheu só `data_coleta`, `sha256` e `versao`; `02_extrair.py` gera `data/extraido/<source_id>__<versao>.json` com seções e caminho de títulos. Regras por site no `rag.yaml`. PDF e fichas adiados (nenhuma fonte PDF; falta o `records.json`). Próximo: curadoria das 20 fontes e passo 3 (chunking).
 - Ambiente: tudo roda em Docker (Python 3.12, `compose.yaml`), sem venv na máquina. Rodar com `docker compose run --rm rag <comando>`. O cache do modelo fica no volume `hf-cache`, fora do OneDrive.

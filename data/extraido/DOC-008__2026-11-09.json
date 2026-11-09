@@ -1,0 +1,39 @@
+{
+  "source_id": "DOC-008",
+  "versao": "2026-11-09",
+  "sha256_original": "183df07abe61e24fab3a1e91e39f4b4be2ecd7c368595980c5f074bcd7867422",
+  "url": "https://software.unb.br/biblioteca/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Biblioteca – Engenharia de Software – UnB",
+  "palavras": 224,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [],
+      "paragrafos": [
+        "A biblioteca do Campus Gama conta atualmente com 2810 exemplares de livros físicos de 961 títulos distintos, englobando livros e normas técnicas. Movimenta cerca de 7.757 empréstimos/renovações a discentes em um ano, das quais 51% são livros da área de Matemática e Ciências Naturais (Área 5 da classificação CDU).",
+        "A biblioteca também disponibilizada a todos os alunos os livros eletrônicos da Ebook Central, de propriedade da ProQuest. A Ebook Central permite o acesso online e o download de seus livros a qualquer aluno do campus. O download pode ser feito em PDF – capítulo a capítulo– ou como diretamente um e-book com ADOBE DRM (Digital Rights Management), em que a visualização expira simulando o final do empréstimo. A UnB é signatária da modalidade ACADEMIC COMPLETE da Ebook Central, que apresenta mais de 80.000 títulos.",
+        "O curso de Engenharia de Software dispõe de assinaturas e acesso a periódicos especializados – indexados e correntes – sob a forma virtual a partir de meta buscadores variados, dentre os quais se podem citar o Portal da Capes, a Proquest, a Ebook Central e a Scielo. Dentre as variadas bases de dados encontradas nestes meta buscadores, são particularmente úteis ao curso de Engenharia de Software a SCOPUS (Elsevier), Compendex (Engineering Village 2), IEEEXplore, SpringerLink (MetaPress), ScienceDirect (Elsevier), Web of Science, Scifinder Web, Oxford University Press e ACM Digital Library."
+      ]
+    }
+  ]
+}

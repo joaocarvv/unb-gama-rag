@@ -1,0 +1,176 @@
+{
+  "source_id": "DOC-002",
+  "versao": "2026-11-09",
+  "sha256_original": "26901d94adb84797f115c03ac759557839435afddcb4eb0e3440b9f45fceb11b",
+  "url": "https://fcte.unb.br/contato/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Contato – FCTE",
+  "palavras": 619,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Secretaria de Graduação"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 7h-19h\nLocal : prédio UAC",
+        "Contatos:\nEmail: secretaria.fcte@unb.br\nSEI: FCTE/SGRA\nNúmero: (61) 3107-8901"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "SECRETARIA DE GRADUAÇÃO"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 07h-19h.\nLoca: prédio UAC",
+        "Contatos:\nEmail: secretaria.fcte@unb.br\nSEI: FCTE/SGRA\nNúmero: (61) 3107-8901",
+        "Servidores:\nFrancisco César (Chiquinho) – 08h às 17h (flexível)\nErlene Agapito – 07h às 13h\nIslaneide Carvalho – 13h às 19h\nMiriam Miranda – 13h às 19h\nRoberto Mendes – 07h às 13h\nThábata Utsumi – 13h às 19h\nWaldenice Estrela – 13h às 19h"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "DIREÇÃO"
+      ],
+      "paragrafos": [
+        "Funcionamento:\nSegunda a sexta-feira\nHorário: 07h30-13h e 14h-18h\nLocal: prédio UED",
+        "Servidores em Trabalho Híbrido 40 horas semanais – PGD – atendimento presencial:\nAna Paula Santana (Segunda, Terça e Quinta) – 07h30 às 13h e 14h30 às 17h\nIdamar Ribeiro (Segunda, Quarta e Sexta) – 08h às 12h e 14h às 18h.",
+        "Contatos:\nEmail: direcao.fcte@unb.br\nSEI: FCTE/DIR\nTelefone: (61) 3107-8904"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "ADMINISTRAÇÃO"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 08h-12h e 14h-18h.\nLocal : prédio UED",
+        "Contatos:\nEmail: adm.fcte@unb.br\nSEI: FCTE/ADM\nNúmeros: (61) 3107-8940",
+        "Servidores em Trabalho Híbrido 40 horas semanais – PGD – atendimento Presencial:\nEloyane de Sousa Fernandes (licença capacitação)\nLeda Nobre (terça e quinta) 08h-12h e 13h às 17h\nMichelle Luciana (segunda e quarta) 08-12 e 13h às 17h\nRaimundo Nonato – 07h -12h e 13h-16h30\nValdemir Gomes – 08h-12h e 14h- 18h"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "BIBLIOTECA"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a Sexta-feira\nHorário: 07h às 19h\nLocal: Prédio UAC",
+        "Contatos:\nEmail: biblioteca.fcte@unb.br\nSEI: FCTE/BIBLIOTECA\nContato: (61) 3107-8942",
+        "Servidores:\nKathryn Cardim – 07h às 13h\nMaurílio Alves – 13h às 19h\nRenivaldo Costa – 07h às 13h"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "COMPRAS"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 08h-12h e 13h-17h.\nLocal : prédio UED",
+        "Contatos:\nEmail: compras.fcte@unb.br\nSEI: FCTE/ADM/COMPRAS\nNúmero: (61) 3107-8943",
+        "Servidor em atendimento Presencial:\nKleber Sebastião (Segunda à sexta-feira) – de 8h às 12h – 13h às 17h",
+        "Servidor em Trabalho Híbrido 40 horas semanais – PGD – Atendimento Presencial:\nLeandro de Moura (Quinta e Sexta-feira) 8h às 12h – 13h às 17h"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "CEMEQ"
+      ],
+      "paragrafos": [
+        "Centro de Manutenção de Equipamentos",
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 14h – 20h\nLocal: prédio UED",
+        "Contatos:\nEmail: cemeq.fcte@unb.br\nSEI: FCTE/TECENG\nNúmero: (61) 3107-8960",
+        "Servidores:\nJoselma Guimarães – 14h às 20h\nJoão Carlos Wohlgemuth – 7hs às 11hs – 12hs às 16hs"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "COORDENAÇÃO ACADÊMICA"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a Sexta\nHorário: 07h às 13h\nLocal: Prédio UED",
+        "Servidores:\nFabiane Pereira – 07h as 13h\nMichely Cristina – 07h as 13h",
+        "Contatos:\nEmail: coordenacao.fcte@unb.br\nSEI: FCTE/COORD\nContato: (61) 3107-8902"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "CPD"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a Sexta\nHorário: 08h às 18h\nLocal: Prédio UAC",
+        "Servidores em Trabalho Híbrido 40 horas semanais – PGD\nAlessando Caldeira (Segunda, Terça e Quarta) – 08h às 12h – 14h às 18h\nAdevanei Barreto (Quarta, Quinta e Sexta) – 08h às 12h – 14h às 18h\nWanderson Silva (Terça, Quarta e Quinta) – 08h às 12h – 13h às 17h\nNilson Eduardo Ferreira (Terça, Quinta e Sexta) – 08h às 12h – 13h às 17h",
+        "Contatos:\nEmail: ti.fcte@unb.br\nSEI: FCTE/CPD\nNúmero: (61) 3107-8944"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "ENFERMAGEM"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:",
+        "Segunda a sexta-feira\nHorário: 07 às 19h\nLocal : prédio UED",
+        "Servidor:\nClaudete Clug – 07h às 13h",
+        "Contato:\n(61) 3107-8948"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "GESTÃO DE PESSOAS"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a Sexta\nHorário: 07h às 19h\nLocal: Prédio UED",
+        "Servidores:",
+        "Fernanda Rosa – 7h às 13 h\nDaiane Melo – Horário de trabalho: 07h às 13h\nWeslaine Macedo Guimaraes Dos Santos: 13 às 19 h",
+        "Contatos:\nEmail: gp.fcte@unb.br\nSEI: FCTE/SGRA\nContato: (61) 3107-8946"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "PÓS-GRADUAÇÃO"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 07h às 19h\nLocal : prédio UED",
+        "Servidores:\nDenise Cristina – 07h30 às 13h30.\nGustavo Aires – 13h às 19h.",
+        "Contatos:\nEmail:secretariapos.fcte@unb.br\nSEI: FCTE/PPG:\nNúmero: (61) 3107-8903"
+      ]
+    },
+    {
+      "caminho": [
+        "Secretaria de Graduação",
+        "SPS/ASSISTÊNCIA ESTUDANTIL"
+      ],
+      "paragrafos": [
+        "Atendimento Presencial:\nSegunda a sexta-feira\nHorário: 07 às 17 horas.\nLocal : prédio UAC",
+        "Servidores:\nPatrícia de Jesus – 07h às 13h\nEtiene de Sousa – 11h às 17h",
+        "Contatos:\nEmail: coae.fcte@unb.br\nSEI: FCTE/SPS\nContato: (61) 3107-8949"
+      ]
+    }
+  ]
+}

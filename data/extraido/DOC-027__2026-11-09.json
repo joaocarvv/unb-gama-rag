@@ -1,0 +1,72 @@
+{
+  "source_id": "DOC-027",
+  "versao": "2026-11-09",
+  "sha256_original": "4f6bc79134814428abbfbfb32a0eea99b4f6c3697e1fb0f583608e351fc1923f",
+  "url": "https://dfnoponto.semob.df.gov.br/pesquisa-por-linhas/",
+  "regras": {
+    "conteudo": "#ajax-content-wrap",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button",
+      "#header-outer",
+      "#search-outer",
+      "#footer1",
+      "#footer2",
+      "#slide-out-widget-area"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Pesquisa por Linhas - Consulte todas as informações da sua linha de ônibus.",
+  "palavras": 89,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Pesquisa por Linhas"
+      ],
+      "paragrafos": [
+        "Fazer uma pesquisa por linhas no DF NO PONTO é prático e eficiente. Basta informar a linha de ônibus (ex. 517.2) para acessar um relatório simplificado, com tabelas de horárias e localização dos ônibus da linha no mapa."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!"
+      ],
+      "paragrafos": [
+        "Tenha acesso a todas as funcionalidades do aplicativo.\nDisponível para Android e iOS."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular Android"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares Samsung, Motorola, Xiaomi e outros com sistema operacional Android/Google.",
+        "Disponível no Google PlayDisponível no Google Play"
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular iOS / Apple"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares iPhone com sistema operacional iOS/Apple.",
+        "Disponível na Apple StoreDisponível na Apple Store"
+      ]
+    }
+  ]
+}

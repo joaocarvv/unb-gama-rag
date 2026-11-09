@@ -1,0 +1,77 @@
+{
+  "source_id": "DOC-018",
+  "versao": "2026-11-09",
+  "sha256_original": "9c3814220abc696ad7698dad815657265973b49495b92617cf1ff0ed4df4ef6a",
+  "url": "https://lite.unb.br/computational-aerospace-simulations-modeling-laboratory/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Computational Aerospace Simulations & Modeling Laboratory -",
+  "palavras": 262,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Computational Aerospace Simulations & Modeling Laboratory​"
+      ],
+      "paragrafos": [
+        "O Computational Aerospace Simulations & Modeling Laboratory (COSMOS), coordenado pela Prof.ª Polliana Candida Oliveira Martins, é um laboratório de pesquisa da Faculdade de Ciências e Tecnologias em Engenharia (FCTE) da Universidade de Brasília (UnB), especializado em simulações numéricas de sistemas aeroespaciais e análise de estruturas aeroespaciais. O COSMOS se dedica ao avanço de técnicas de modelagem computacional e à solução de problemas complexos em engenharia aeroespacial, promovendo inovação e formação de profissionais capacitados."
+      ]
+    },
+    {
+      "caminho": [
+        "Computational Aerospace Simulations & Modeling Laboratory​",
+        "Missão e Objetivos"
+      ],
+      "paragrafos": [
+        "A missão do COSMOS é integrar pesquisa acadêmica e aplicações práticas para o desenvolvimento de tecnologias aeroespaciais avançadas. O laboratório busca formar engenheiros capazes de realizar análises sofisticadas de sistemas e estruturas aeroespaciais, contribuindo para o progresso científico e a competitividade da indústria aeronáutica e espacial."
+      ]
+    },
+    {
+      "caminho": [
+        "Computational Aerospace Simulations & Modeling Laboratory​",
+        "Áreas de Especialização"
+      ],
+      "paragrafos": [
+        "O COSMOS é especializado em áreas críticas da engenharia aeroespacial:",
+        "Simulações Numéricas de Sistemas Aeroespaciais: Utiliza ferramentas de modelagem computacional para prever o desempenho e comportamento de sistemas aeroespaciais, permitindo otimizações antes da implementação física.",
+        "Análise de Estruturas Aeroespaciais: Realiza estudos detalhados sobre o comportamento estrutural de componentes aeronáuticos e espaciais, com foco na resistência, estabilidade e eficiência."
+      ]
+    },
+    {
+      "caminho": [
+        "Computational Aerospace Simulations & Modeling Laboratory​",
+        "Infraestrutura e Capacidades Técnicas"
+      ],
+      "paragrafos": [
+        "O COSMOS possui uma infraestrutura avançada para simulações computacionais e análise de estruturas, incluindo softwares especializados para modelagem numérica, análise estrutural e simulações em ambiente virtual. Essa infraestrutura permite o desenvolvimento de soluções inovadoras e a validação de projetos complexos."
+      ]
+    },
+    {
+      "caminho": [
+        "Computational Aerospace Simulations & Modeling Laboratory​",
+        "Contribuição para Inovação e Formação"
+      ],
+      "paragrafos": [
+        "O COSMOS desempenha um papel fundamental na formação de engenheiros aeroespaciais, oferecendo uma base prática e teórica sólida em modelagem e simulação. Suas pesquisas contribuem para o avanço da ciência e tecnologia aeroespacial, fortalecendo a posição da UnB como um polo de inovação em engenharia."
+      ]
+    }
+  ]
+}

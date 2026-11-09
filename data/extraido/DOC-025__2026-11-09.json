@@ -1,0 +1,139 @@
+{
+  "source_id": "DOC-025",
+  "versao": "2026-11-09",
+  "sha256_original": "ea17882a38e124b04df796ca0214503b207c8c8b9e6fb5bcc62371d94952e85d",
+  "url": "https://dfnoponto.semob.df.gov.br/",
+  "regras": {
+    "conteudo": "#ajax-content-wrap",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button",
+      "#header-outer",
+      "#search-outer",
+      "#footer1",
+      "#footer2",
+      "#slide-out-widget-area"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "DF NO PONTO - Agora, perder o ônibus é coisa do passado.",
+  "palavras": 225,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Seu transporte público na palma da mão!"
+      ],
+      "paragrafos": [
+        "Baixe agora o aplicativoBaixe agora o aplicativo",
+        "Pesquisa geral",
+        "Consulte os horários, linhas e pontos de parada.",
+        "Pesquisa por linha",
+        "Consulte todas as informações da sua linha."
+      ]
+    },
+    {
+      "caminho": [
+        "O Aplicativo para se locomover no DF!"
+      ],
+      "paragrafos": [
+        "O DF NO PONTO é uma iniciativa do Governo do Distrito Federal – GDF, criada para facilitar o dia a dia do cidadão. Este guia inteligente oferece informações atualizadas sobre os meios de transporte público, ajudando você a planejar a melhor rota e chegar ao seu destino com mais praticidade e tranquilidade."
+      ]
+    },
+    {
+      "caminho": [
+        "Agora, perder o ônibus é coisa do passado."
+      ],
+      "paragrafos": [
+        "Descubra as ferramentas que tornam sua experiência com o transporte público no Distrito Federal mais prática e eficiente. Planeje rotas, acompanhe horários em tempo real e receba alertas importantes sobre serviços. Tudo isso para garantir que sua mobilidade urbana seja simples e sem contratempos."
+      ]
+    },
+    {
+      "caminho": [
+        "Agora, perder o ônibus é coisa do passado.",
+        "Planejamento de rota inteligente"
+      ],
+      "paragrafos": [
+        "Descubra rotas rápidas e eficientes conforme suas necessidades."
+      ]
+    },
+    {
+      "caminho": [
+        "Agora, perder o ônibus é coisa do passado.",
+        "Horários em tempo real"
+      ],
+      "paragrafos": [
+        "Confira horários precisos e evite esperas desnecessárias."
+      ]
+    },
+    {
+      "caminho": [
+        "Agora, perder o ônibus é coisa do passado.",
+        "Alertas de serviço"
+      ],
+      "paragrafos": [
+        "Receba notificações sobre atrasos, mudanças e interrupções."
+      ]
+    },
+    {
+      "caminho": [
+        "Agora, perder o ônibus é coisa do passado.",
+        "Favoritos personalizados"
+      ],
+      "paragrafos": [
+        "Salve suas rotas e paradas preferidas para acesso rápido."
+      ]
+    },
+    {
+      "caminho": [
+        "Faça sua busca e veja como é fácil."
+      ],
+      "paragrafos": [
+        "Pesquisa geral",
+        "Consulte os horários, linhas e pontos de parada.",
+        "Pesquisa por linha",
+        "Consulte todas as informações da sua linha."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!"
+      ],
+      "paragrafos": [
+        "Tenha acesso a todas as funcionalidades do aplicativo.\nDisponível para Android e iOS."
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular Android"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares Samsung, Motorola, Xiaomi e outros com sistema operacional Android/Google.",
+        "Disponível no Google PlayDisponível no Google Play"
+      ]
+    },
+    {
+      "caminho": [
+        "Baixe o aplicativo agora mesmo!",
+        "Celular iOS / Apple"
+      ],
+      "paragrafos": [
+        "Baixe o app para celulares iPhone com sistema operacional iOS/Apple.",
+        "Disponível na Apple StoreDisponível na Apple Store"
+      ]
+    }
+  ]
+}

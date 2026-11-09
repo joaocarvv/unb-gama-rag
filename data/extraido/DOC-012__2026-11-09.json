@@ -1,0 +1,131 @@
+{
+  "source_id": "DOC-012",
+  "versao": "2026-11-09",
+  "sha256_original": "32fb26476cd1be1433a93474d55c7643825efcfd2244fc6e236e5ab4a27e6b99",
+  "url": "https://bce.unb.br/biblioteca-campus-gama/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Biblioteca Campus Gama – BCE",
+  "palavras": 459,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "BIBLIOTECA SETORIAL CAMPUS GAMA"
+      ],
+      "paragrafos": [
+        "A Biblioteca da Faculdade do Gama tem como objetivo a disseminação da informação, oferecendo suporte bibliográfico especializado aos cursos ofertados no campus, sendo eles: Engenharia Aeroespacial (graduação); Engenharia Automotiva (graduação); Engenharia Eletrônica (graduação); Engenharia de Energia (graduação); Engenharia de Software (graduação); Engenharia Biomédica (pós-graduação) e Integridade de Materiais da Engenharia (pós-graduação).",
+        "A Biblioteca do Campus Gama dispõe de espaço para estudo com cabines individuais e mesas para estudo em grupo, além de disponibilizar computadores para pesquisa no catálogo online e laboratório de acesso digital.",
+        "O acervo é voltado para as áreas da Engenharia. Atualmente, é composto por cerca de 1.482 títulos e 5.727 exemplares. A unidade disponibiliza acesso e pesquisa a todo acervo digital do Sistema de Bibliotecas da UnB – SiB-UnB.",
+        "Localizada na Faculdade de Ciências e Tecnologias em Engenharia (FCTE), no Gama."
+      ]
+    },
+    {
+      "caminho": [
+        "BIBLIOTECA SETORIAL CAMPUS GAMA",
+        "Doações"
+      ],
+      "paragrafos": [
+        "Os interessados em doar para a biblioteca deverão enviar um e-mail com a lista dos títulos, autores, edição e ISBN das obras a serem doadas. Após indicação dos materiais pré-selecionados é marcado um horário para que sejam entregues pelo doador na Biblioteca do Campus Gama. Neste dia, é feita a conferência do estado de conservação dos itens. Aqueles que forem aprovados, são incorporados ao acervo (após processamento técnico)."
+      ]
+    },
+    {
+      "caminho": [
+        "BIBLIOTECA SETORIAL CAMPUS GAMA",
+        "Responsável"
+      ],
+      "paragrafos": [
+        "Kathryn Cardin Araújo (Bibliotecária - Matutino)"
+      ]
+    },
+    {
+      "caminho": [
+        "BIBLIOTECA SETORIAL CAMPUS GAMA",
+        "Funcionamento"
+      ],
+      "paragrafos": [
+        "Segunda a sexta-feira (exceto feriados) das 7h às 19h"
+      ]
+    },
+    {
+      "caminho": [
+        "Serviços"
+      ],
+      "paragrafos": [
+        "Os empréstimos poderão ser feitos durante o horário de funcionamento da biblioteca, sem necessidade de agendamento prévio.",
+        "As devoluções poderão ser feitas durante o horário de funcionamento da biblioteca, sem necessidade de agendamento prévio.",
+        "Levantamento bibliográfico, orientação à pesquisa em bases de dados, orientação para desenvolvimento de trabalho acadêmico, orientação quanto ao uso de normas para elaboração de trabalhos acadêmicos, elaboração de fichas catalográficas e outros. E-mail para contato: biblioteca.fcte@unb.br",
+        "A biblioteca foi criada para atender os cursos de graduação e pós-graduação oferecidos na FCTE, mas também atende a comunidade acadêmica dos outros campi da UnB."
+      ]
+    },
+    {
+      "caminho": [
+        "Comunidade Externa"
+      ],
+      "paragrafos": [
+        "A utilização da Biblioteca Campus Gama é aberta à comunidade externa, sem a necessidade de credenciamento ou agendamento.\nNo entanto, ressaltamos os seguintes aspectos:"
+      ]
+    },
+    {
+      "caminho": [
+        "Comunidade Externa",
+        "Formulário de atendimento"
+      ],
+      "paragrafos": [
+        "Todos os usuários (comunidade acadêmica e externa) devem preencher o formulário de atendimento ao público na entrada do estabelecimento, informando nome, número do RG ou CPF, data de acesso; horário de entrada e razão da visita."
+      ]
+    },
+    {
+      "caminho": [
+        "Comunidade Externa",
+        "Acervo especializado"
+      ],
+      "paragrafos": [
+        "O acervo é especializado na área de engenharia."
+      ]
+    },
+    {
+      "caminho": [
+        "Comunidade Externa",
+        "Comunidade Acadêmica"
+      ],
+      "paragrafos": [
+        "O empréstimo de materiais é disponibilizado apenas para a comunidade acadêmica da UnB. A comunidade externa pode realizar a consulta local das obras.",
+        "Para agendar uma das capacitações ofertadas pela Biblioteca da FCE, envie um e-mail para: biblioteca.fcte@unb.br"
+      ]
+    },
+    {
+      "caminho": [
+        "Produções FCTE"
+      ],
+      "paragrafos": [
+        "Artigos de Periódicos",
+        "Mestrado em Engenharia Biomédica – dissertações",
+        "Mestrado em Integridade de Materiais da Engenharia – dissertações",
+        "Engenharia Aeroespacial – monografias",
+        "Engenharia Automotiva – monografias",
+        "Engenharia de Energia – monografias",
+        "Engenharia de Software – monografias",
+        "Engenharia Eletrônica – monografias"
+      ]
+    }
+  ]
+}

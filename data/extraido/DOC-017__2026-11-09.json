@@ -1,0 +1,88 @@
+{
+  "source_id": "DOC-017",
+  "versao": "2026-11-09",
+  "sha256_original": "3c56d9a1917a53a97dc77ad62c94d5ce4dd5f434d0158d118569cb6bba721096",
+  "url": "https://lite.unb.br/laboratorio-de-microeletronica-e-sistemas-embarcados/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Laboratório de Microeletrônica e Sistemas Embarcados - FCTE / LITE",
+  "palavras": 472,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados"
+      ],
+      "paragrafos": [
+        "Site Oficial",
+        "O Laboratório de Microeletrônica e Sistemas Embarcados (LabMicro) da Faculdade de Ciências e Tecnologias em Engenharia (FCTE), na Universidade de Brasília (UnB), é um centro de pesquisa e desenvolvimento especializado no projeto de circuitos integrados analógicos, digitais e de rádio frequência (RF), bem como em sistemas embarcados e projetos em FPGA. Fundado em 2013, o LabMicro oferece suporte completo ao processo de desenvolvimento de circuitos integrados, desde sua concepção e implementação até a verificação e análise de desempenho."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados",
+        "Missão e Objetivos"
+      ],
+      "paragrafos": [
+        "A missão do LabMicro é apoiar a pesquisa e o desenvolvimento de tecnologias de microeletrônica, capacitando alunos e promovendo avanços tecnológicos em aplicações biomédicas, telecomunicações, processamento de sinais, robótica e visão computacional. O laboratório fornece uma infraestrutura robusta para o desenvolvimento de Sistemas em Chip (SoCs) e prototipagem rápida de circuitos integrados digitais e RF, contribuindo para a formação de profissionais capacitados para a indústria e a academia."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados",
+        "Áreas de Especialização"
+      ],
+      "paragrafos": [
+        "O LabMicro é especializado em diversas áreas da microeletrônica, incluindo:",
+        "Projeto de Circuitos Integrados Analógicos, Digitais e de RF: Desenvolvimento de circuitos integrados para aplicações de alta precisão, desde a concepção até a produção em rodadas de fabricação MPW (Multi-Project Wafer) com tecnologia TSMC de 180 nm. Esses circuitos atendem a demandas em setores como biomédica, telecomunicações e processamento de sinais.",
+        "Projeto em FPGA: Utilização de FPGAs (Field Programmable Gate Arrays) para prototipagem e desenvolvimento de circuitos integrados digitais. Esses dispositivos são aplicados tanto em testes rápidos quanto em produtos finais para processamento de alto desempenho, robótica e visão computacional.",
+        "Sistemas Embarcados: Desenvolvimento de sistemas embarcados baseados em processadores ARM, aplicados em diversas áreas, como telecomunicações e automação. Esses sistemas possibilitam o desenvolvimento de soluções compactas e eficientes para problemas complexos."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados",
+        "Infraestrutura e Equipamentos"
+      ],
+      "paragrafos": [
+        "O LabMicro possui uma infraestrutura de ponta no prédio LDTEA da FCTE, com uma área de 45 m² equipada com seis estações de trabalho, osciloscópios, fontes de alimentação, geradores de sinais, e kits de desenvolvimento FPGA. Conta também com kits para rádios definidos por software (SDR) e sistemas embarcados baseados em processadores ARM Cortex A9 e ARM R5. Essa estrutura permite a realização de projetos complexos e a formação prática dos alunos."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados",
+        "Colaboração e Parcerias"
+      ],
+      "paragrafos": [
+        "O LabMicro mantém parcerias estratégicas com outros laboratórios da FCTE e da Faculdade de Tecnologia (FT) da UnB, especialmente com o Laboratório de Dispositivos e Circuitos Integrados (LDCI) da FT. Essas colaborações possibilitam a caracterização elétrica de dispositivos e circuitos integrados, cobrindo uma faixa de frequência de sub-Hz até 3 GHz, fortalecendo a pesquisa e desenvolvimento de tecnologias de ponta."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Microeletrônica e Sistemas Embarcados",
+        "Contribuição para a Pesquisa e Inovação"
+      ],
+      "paragrafos": [
+        "Desde sua criação, o LabMicro tem se destacado como um núcleo de inovação em microeletrônica, promovendo avanços tecnológicos e formando profissionais capacitados para enfrentar os desafios da indústria. Com suporte da Fundação de Apoio à Pesquisa do Distrito Federal (FAPDF), o laboratório adquiriu softwares, equipamentos e kits que ampliaram suas capacidades, possibilitando que alunos e pesquisadores realizem projetos de grande impacto."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "source_id": "DOC-021",
+  "versao": "2026-11-09",
+  "sha256_original": "370fdfbb7cb09530c56dbecf1f98acecea8a9f04615c8973164df30cb430b4bc",
+  "url": "https://lite.unb.br/laboratorio-de-tecnologias-ambientais-materiais-e-energia/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Laboratório de Tecnologias Ambientais, Materiais e Energia - FCTE / LITE",
+  "palavras": 285,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Laboratório de Tecnologias Ambientais, Materiais e Energia"
+      ],
+      "paragrafos": [
+        "O Laboratório de Tecnologias Ambientais, Materiais e Energia (LATAME), coordenado pela Dra. Andréia Alves Costa Lindinger, é um centro de pesquisa da Universidade de Brasília (UnB) que se dedica ao desenvolvimento de materiais avançados e ao estudo de tecnologias de catálise com foco em aplicações ambientais e energéticas. O LATAME trabalha na síntese, caracterização e aplicação de catalisadores sólidos, uma área de pesquisa essencial para processos sustentáveis e inovadores que buscam minimizar o impacto ambiental e melhorar a eficiência energética."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Tecnologias Ambientais, Materiais e Energia",
+        "Especialidades do LATAME"
+      ],
+      "paragrafos": [
+        "Materiais: O LATAME estuda e desenvolve novos materiais com propriedades específicas para serem aplicados em tecnologias de ponta, como catalisadores e dispositivos de energia limpa. O foco em materiais avançados é fundamental para atender às demandas por soluções sustentáveis e eficientes em diversos setores.",
+        "Catálise e Catalisadores Sólidos: A pesquisa em catálise é uma das principais áreas de atuação do LATAME, que busca otimizar processos químicos através do uso de catalisadores sólidos. Esses catalisadores são essenciais em reações que reduzem o consumo de energia e minimizam a geração de resíduos, contribuindo para a sustentabilidade dos processos industriais.",
+        "Síntese e Caracterização de Catalisadores: O LATAME é especializado na criação de catalisadores sólidos e na análise detalhada de suas propriedades químicas e físicas. A caracterização desses catalisadores inclui estudos de estrutura, reatividade e eficiência, fundamentais para desenvolver materiais catalíticos que possam ser aplicados em processos industriais e ambientais."
+      ]
+    },
+    {
+      "caminho": [
+        "Laboratório de Tecnologias Ambientais, Materiais e Energia",
+        "Contribuição para Sustentabilidade e Inovação"
+      ],
+      "paragrafos": [
+        "O LATAME é um laboratório de referência no desenvolvimento de tecnologias que promovem a sustentabilidade, com foco em soluções que atendem aos desafios atuais nas áreas de energia e meio ambiente. Por meio da criação de materiais inovadores e processos catalíticos mais eficientes, o LATAME apoia o avanço da ciência e tecnologia em prol de um futuro mais sustentável."
+      ]
+    }
+  ]
+}

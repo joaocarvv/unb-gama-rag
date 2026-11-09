@@ -1,0 +1,91 @@
+{
+  "source_id": "DOC-019",
+  "versao": "2026-11-09",
+  "sha256_original": "f731efedc52283b26528df6b4c3b32c3d2487c09033e88d329d98952351e68a6",
+  "url": "https://lite.unb.br/automotive-research-center/",
+  "regras": {
+    "conteudo": "main",
+    "remover": [
+      "script",
+      "style",
+      "noscript",
+      "svg",
+      "iframe",
+      "form",
+      "nav",
+      "header",
+      "footer",
+      "aside",
+      "button"
+    ],
+    "titulos_extras": [
+      ".elementor-tab-title"
+    ]
+  },
+  "titulo_pagina": "Automotive Research Center - FCTE / LITE",
+  "palavras": 613,
+  "repeticoes_removidas": 0,
+  "avisos": [],
+  "secoes": [
+    {
+      "caminho": [
+        "Automotive Research Center"
+      ],
+      "paragrafos": [
+        "Site Oficial",
+        "O Automotive Research Center (ARC), coordenado pelo Dr. Rafael Rodrigues da Silva, é um laboratório da Faculdade do Gama (FGA) da Universidade de Brasília (UnB) dedicado à pesquisa, desenvolvimento e inovação (PD&I) em engenharia automotiva e áreas afins. Como um laboratório multidisciplinar, o ARC reúne conhecimentos de modelagem, controle, identificação de sistemas, eletrônica e software aplicados a sistemas automotivos, criando uma base sólida para o avanço de tecnologias no setor."
+      ]
+    },
+    {
+      "caminho": [
+        "Automotive Research Center",
+        "Missão e Objetivos"
+      ],
+      "paragrafos": [
+        "A missão do ARC é apoiar o desenvolvimento de soluções inovadoras para a indústria automotiva, aplicando ciência aplicada na concepção e controle de subsistemas automotivos. O laboratório busca desenvolver tecnologias avançadas e consolidar uma base científica para melhorar a eficiência, segurança e sustentabilidade dos veículos. O ARC serve como um núcleo de pesquisa que conecta academia e indústria, incentivando parcerias com fornecedores, pequenas e médias empresas (PMEs) e fabricantes de equipamentos originais (OEMs), ampliando a aplicação prática de suas pesquisas."
+      ]
+    },
+    {
+      "caminho": [
+        "Automotive Research Center",
+        "Áreas de Atuação"
+      ],
+      "paragrafos": [
+        "O ARC cobre várias áreas essenciais para a engenharia automotiva moderna:",
+        "Modelagem e Simulação: Desenvolvimento de modelos computacionais para representar e prever o comportamento de sistemas automotivos, como dinâmica veicular, motor e transmissão. A modelagem permite testar e ajustar sistemas antes de sua implementação física, economizando tempo e recursos.",
+        "Controle e Identificação de Sistemas: Criação de sistemas de controle para melhorar o desempenho e a segurança de veículos, incluindo controle de estabilidade e eficiência energética. A identificação de sistemas é usada para entender o comportamento dos componentes e otimizar a resposta dos sistemas de controle.",
+        "Eletrônica e Instrumentação: O ARC trabalha com o desenvolvimento de componentes eletrônicos e instrumentação específica para aplicações automotivas. Esses sistemas suportam desde o monitoramento de desempenho até a interação do veículo com o ambiente, contribuindo para tecnologias de automação e direção autônoma.",
+        "Software para Sistemas Automotivos: Desenvolvimento de software embarcado e algoritmos de controle para aplicações automotivas. Isso inclui sistemas de gerenciamento de energia, software de diagnóstico e controle de motor, entre outros, permitindo maior precisão e funcionalidade nos veículos modernos."
+      ]
+    },
+    {
+      "caminho": [
+        "Automotive Research Center",
+        "Infraestrutura e Atividades Acadêmicas"
+      ],
+      "paragrafos": [
+        "O ARC oferece uma infraestrutura robusta para projetos de PD&I, possibilitando que alunos de iniciação científica, trabalhos de conclusão de curso, mestrado e doutorado conduzam suas pesquisas em um ambiente de alto nível. Com equipamentos e ferramentas de simulação de última geração, o laboratório possibilita que os alunos experimentem e validem conceitos em condições próximas àquelas encontradas na indústria.",
+        "Os professores do ARC estão ativamente envolvidos nos cursos de graduação e pós-graduação da UnB, contribuindo para a formação de engenheiros com sólida base em automação, controle e eletrônica automotiva. Além disso, o ARC promove atividades de extensão universitária e ensino, ampliando o impacto de sua pesquisa no desenvolvimento de novas tecnologias e na qualificação de profissionais."
+      ]
+    },
+    {
+      "caminho": [
+        "Automotive Research Center",
+        "Colaboração com a Indústria e Inovação Tecnológica"
+      ],
+      "paragrafos": [
+        "O ARC é conhecido pela sua colaboração com a indústria automotiva, atuando como um centro de pesquisa aplicado que atende a demandas tecnológicas e promove a transferência de conhecimento. Parcerias com empresas do setor permitem que o laboratório desenvolva tecnologias que têm impacto direto na competitividade do mercado automotivo, promovendo inovações em sistemas de controle, eletrônica embarcada e automação veicular.",
+        "Essa interação com a indústria beneficia tanto a UnB quanto os alunos, que adquirem experiência prática em projetos de ponta. Por meio dessas colaborações, o ARC se posiciona como um dos principais centros de pesquisa automotiva no Brasil, contribuindo para a transformação tecnológica do setor e o desenvolvimento de soluções voltadas para veículos mais seguros, eficientes e sustentáveis."
+      ]
+    },
+    {
+      "caminho": [
+        "Automotive Research Center",
+        "Diferenciais e Contribuição"
+      ],
+      "paragrafos": [
+        "O ARC diferencia-se pela abordagem interdisciplinar, unindo áreas como eletrônica, mecânica, mecatrônica e software para solucionar desafios complexos da engenharia automotiva. Com sua expertise em modelagem e controle, o ARC aprimora a base científica de sistemas automotivos, estabelecendo-se como uma referência em inovação e desenvolvimento de soluções aplicadas a veículos modernos."
+      ]
+    }
+  ]
+}
