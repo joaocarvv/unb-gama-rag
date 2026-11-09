@@ -1,0 +1,14 @@
+# Dados que não vão para o git (originais, coleta real, índice, logs)
+data/originais/
+data/fichas/
+data/index/
+execucoes/
+
+# Segredos
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

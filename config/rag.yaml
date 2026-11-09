@@ -1,0 +1,46 @@
+# Configuração central do RAG da equipe 09.
+# Os scripts leem tudo daqui. Valores marcados como null serão definidos no passo indicado.
+
+caminhos:
+  catalogo: catalogo/fontes.csv
+  originais: data/originais
+  fichas: data/fichas/records.json
+  extraido: data/extraido
+  chunks: data/chunks/chunks.jsonl
+  chroma: data/index/chroma
+  manifesto: data/index/manifesto.json
+  execucoes: execucoes
+
+catalogo:
+  status_validos: [aprovado, pendente, rejeitado]
+  abrangencias_validas: [Gama, UnB geral, DF]
+  tipos_validos: [pagina_web, pdf, ficha]
+  validade_desconhecida: desconhecida
+  meta_aprovados: 20
+
+embeddings:
+  modelo: intfloat/multilingual-e5-small
+  revisao: null            # passo 4: fixar o commit do modelo no Hugging Face
+  dimensao: 384
+  max_tokens: 512
+  prefixo_documento: "passage: "
+  prefixo_pergunta: "query: "
+  normalizar: true
+
+chunking:
+  alvo_tokens: 300
+  sobreposicao_tokens: 40  # só ao subdividir seção longa
+  max_tokens: 512          # inclui prefixo e título
+
+indice:
+  colecao: fcte
+  distancia: cosine
+
+busca:
+  top_k: 5
+  max_por_fonte: 2
+
+geracao:
+  provedor: gemini
+  modelo: null             # passo 7
+  temperatura: null        # passo 7 (baixa)

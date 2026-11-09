@@ -1,0 +1,4 @@
+# Passo 1: só o necessário para configuração, catálogo e testes.
+# Bibliotecas de embeddings, Chroma e Gemini entram nos passos em que forem usadas.
+pyyaml==6.0.2
+pytest==8.3.4

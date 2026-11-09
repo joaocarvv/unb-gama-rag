@@ -1,0 +1,14 @@
+services:
+  rag:
+    build: .
+    volumes:
+      # Código do projeto montado no container: editar no Windows reflete na hora.
+      - .:/app
+      # Cache do Hugging Face (modelo E5) fora do OneDrive, baixado uma vez só.
+      - hf-cache:/root/.cache/huggingface
+    env_file:
+      - path: .env
+        required: false
+
+volumes:
+  hf-cache:
