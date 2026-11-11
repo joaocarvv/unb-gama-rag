@@ -13,3 +13,12 @@ lxml==5.3.0
 
 # Passo 3: chunking (só o tokenizer do E5, não o modelo)
 tokenizers==0.21.1
+
+# Passo 4: embeddings e índice
+# torch na versão CPU (sem CUDA): bem menor e suficiente para o e5-small.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+transformers==4.51.3
+sentence-transformers==4.1.0
+chromadb==1.0.12
+posthog==5.4.0           # o 6+ quebra a telemetria (já desligada) do chromadb 1.0 e gera erros no log

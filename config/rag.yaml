@@ -11,6 +11,8 @@ caminhos:
   chunks_rascunho: data/chunks/chunks_rascunho.jsonl   # pendentes tratadas como aprovadas, fora do git
   chroma: data/index/chroma
   manifesto: data/index/manifesto.json
+  chroma_rascunho: data/index/chroma_rascunho          # índice das pendentes, nunca mistura com o real
+  manifesto_rascunho: data/index/manifesto_rascunho.json
   execucoes: execucoes
 
 catalogo:
@@ -47,6 +49,8 @@ embeddings:
   prefixo_documento: "passage: "
   prefixo_pergunta: "query: "
   normalizar: true
+  lote: 32                 # quantos textos codificar por vez
+  dispositivo: cpu
 
 chunking:
   # agrupar_irmaos (opção C): junta seções vizinhas com o mesmo título-pai até o alvo
@@ -59,6 +63,14 @@ chunking:
 indice:
   colecao: fcte
   distancia: cosine
+
+conferencia:
+  # Perguntas só para ver se o índice reaberto responde. Não é avaliação (isso é o passo 6).
+  perguntas:
+    - Onde fica o Laboratório de Sistemas Espaciais?
+    - Onde consultar linhas e horários de ônibus para o campus Gama?
+    - Quais auxílios de assistência estudantil existem?
+  tolerancia_vetor: 0.0001  # diferença máxima ao recodificar um chunk e comparar com o salvo
 
 busca:
   top_k: 5
