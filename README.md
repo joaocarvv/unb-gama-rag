@@ -13,7 +13,7 @@ RAG da Equipe 09 da Residência em IA do Instituto Eldorado (Challenge 2). O obj
 | Qual o problema? | Informações do campus espalhadas ou sem detalhe na hora da consulta. É uma hipótese, ainda não medida |
 | O que este repositório faz? | Um RAG: o estudante pergunta e recebe uma resposta baseada em documentos curados, com as fontes citadas |
 | Onde entra a outra IA? | No Coleta FCTE (outro repositório): fotos de locais, sugestão do Gemini e revisão humana. As fichas revisadas viram fonte do RAG |
-| Em que pé está? | Passos 1 a 3 de 9 feitos (catálogo, aquisição, extração, chunking). Próximo: embeddings e índice |
+| Em que pé está? | Passos 1 a 4 de 9 feitos (catálogo, aquisição, extração, chunking, embeddings e índice). Próximo: busca sem LLM |
 
 ## Sumário
 
@@ -177,8 +177,8 @@ Cada passo é pequeno e só começa depois que o anterior é aprovado.
 | 1 | Esqueleto, configuração e validação do catálogo | feito |
 | 2 | Aquisição e extração (HTML) | feito (PDF e fichas adiados) |
 | 3 | Chunking e normalização | feito |
-| 4 | Embeddings e índice | próximo |
-| 5 | Busca e demo sem LLM | planejado |
+| 4 | Embeddings e índice | feito |
+| 5 | Busca e demo sem LLM | próximo |
 | 6 | Gabarito e métricas de busca (E5 vs BM25) | planejado |
 | 7 | Geração com Gemini e checagem de citações | planejado |
 | 8 | Avaliação das respostas | planejado |
@@ -209,9 +209,22 @@ Cada passo é pequeno e só começa depois que o anterior é aprovado.
 
 Números do modo rascunho em 2026-11-09 (20 fontes pendentes, só para conferência do pipeline, não é avaliação): 76 chunks com `agrupar_irmaos` (mediana de 191 tokens, máximo de 296) e 114 com `por_secao` (mediana de 123).
 
+### Passo 4: embeddings e índice
+
+- `src/unb_gama_rag/embeddings.py` carrega o E5 na revisão fixada e é o único lugar que coloca os prefixos (`passage: ` nos chunks, `query: ` nas perguntas). Os vetores saem normalizados. Os testes usam um embedder falso, que não baixa o modelo.
+- `scripts/05_indexar.py` grava os vetores no Chroma (distância cosseno, sem a função de embedding padrão do Chroma) e sincroniza pelo `chunk_id`:
+  - id novo: codifica e insere;
+  - id que já existe: não recodifica (o mesmo id garante o mesmo texto), só atualiza metadados, como o status depois da curadoria;
+  - id que sumiu dos chunks (versão superada): remove.
+- Rodar de novo não duplica nada. Se não houver chunk novo, o modelo nem é carregado.
+- `data/index/manifesto.json` registra modelo, revisão, prefixos, tokenizer, config de chunking, versão do corpus (hash das fontes, versões e SHAs), config do índice e versões das bibliotecas. Se o modelo, a revisão, a dimensão, o prefixo, a normalização ou a distância mudarem, o script se recusa a misturar vetores e pede `--reconstruir`.
+- `scripts/06_conferir.py` reabre o índice num processo novo, sem ingestão, e confere total, ids, dimensão, distância, compatibilidade com a config e se o vetor salvo de um chunk é igual ao que o modelo gera hoje. Depois roda 3 perguntas do `rag.yaml` só para ver o ranking (não é avaliação).
+- O índice das pendentes fica separado em `data/index/chroma_rascunho/`, com manifesto próprio. O índice real só aceita chunks de fontes aprovadas.
+
+Execução em 2026-11-09 (modo rascunho): 76 chunks indexados; na 2ª execução, 0 novos e total 76; a conferência passou nas 6 checagens.
+
 ### Próximos passos
 
-- **4. Embeddings e índice**: gerar os vetores com o E5, gravar no Chroma, registrar tudo em `data/index/manifesto.json`, garantir que reindexar não duplica e que dá para reabrir o índice sem nova ingestão.
 - **5. Busca**: `perguntar.py` mostra o ranking (posição, `chunk_id`, fonte, seção, distância) sem usar LLM.
 - **6. Métricas de busca**: gabarito com ~30 perguntas (respondíveis, sem resposta e com premissa errada), Hit@5 e MRR, E5 comparado com BM25.
 - **7. Geração**: Gemini responde só com os trechos, cita os `chunk_id`, e o sistema confere se cada citação foi mesmo recuperada.
@@ -258,6 +271,14 @@ docker compose run --rm rag python scripts/02_extrair.py --mostrar DOC-005
 docker compose run --rm rag python scripts/04_chunks.py --rascunho
 docker compose run --rm rag python scripts/04_chunks.py --rascunho --estrategia por_secao
 docker compose run --rm rag python scripts/04_chunks.py --rascunho --mostrar DOC-015
+
+# 5. embeddings e índice (na 1ª vez baixa o modelo, ~470 MB)
+docker compose run --rm rag python scripts/05_indexar.py --rascunho
+docker compose run --rm rag python scripts/05_indexar.py --rascunho     # de novo: 0 novos
+docker compose run --rm rag python scripts/05_indexar.py --rascunho --reconstruir
+
+# 6. reabrir o índice sem ingestão e conferir
+docker compose run --rm rag python scripts/06_conferir.py --rascunho
 ```
 
 ### Observações para quem replicar
@@ -275,8 +296,9 @@ catalogo/fontes.csv       catálogo de fontes e curadoria
 data/originais/           originais baixados (fora do git)
 data/extraido/            texto extraído por fonte e versão
 data/chunks/              chunks gerados
-data/index/               índice Chroma e manifesto (fora do git, passo 4)
-src/unb_gama_rag/         lógica (catalogo, aquisicao, extracao, tokens, chunking, normalizacao)
+data/index/               índices Chroma (real e rascunho) e manifestos (fora do git)
+src/unb_gama_rag/         lógica (catalogo, aquisicao, extracao, tokens, chunking, normalizacao,
+                          embeddings, indice, manifesto)
 scripts/                  scripts finos, um por etapa
 tests/                    testes sem rede, sem Gemini e sem baixar modelo
 Dockerfile, compose.yaml  ambiente Python 3.12
